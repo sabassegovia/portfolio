@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return (
             <div className="condiv">
-                Page in progress...
+                Page in progress...{`'\n`}Check back soon...
             <Social />
             </div>
             )
