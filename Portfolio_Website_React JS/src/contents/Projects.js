@@ -5,7 +5,8 @@ class Projects extends Component {
     render() {
         return (
             <div className="condiv">
-            hi
+                hi
+                hello
             <Social />
             </div>
             )
