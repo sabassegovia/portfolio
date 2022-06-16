@@ -8,6 +8,7 @@ class Navbar extends Component {
         this.state={
             'NavItemActive':''
         }
+        // this.activeitem = this.activeitem.bind(this)
     }
     activeitem=(x)=>
     {
@@ -23,15 +24,15 @@ class Navbar extends Component {
             <nav>
             <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-            <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
+            <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
             <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
             <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
+            <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
             </ul>
             </nav>
             )
         }
     }
-    
+
     export default Navbar
-    

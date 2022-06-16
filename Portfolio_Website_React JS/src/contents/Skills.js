@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import Social from '../components/Social'
 
 class Skills extends Component {
     constructor(props)
     {
         super(props);
         this.state={
-            'myskills':['HTML','CSS','JS','PHP','REACT JS','FIREBASE','MIT APP']
+            'myskills':['HTML','CSS','JS','NODE','REACT JS','MONGODB','MYSQL', 'EXPRESS JS']
         };
     }
 
@@ -17,11 +18,11 @@ class Skills extends Component {
             {this.state.myskills.map((value)=>{
                 return <li>{value}</li>
             })}
-            </ul>
+                </ul>
+                <Social />
             </div>
             )
         }
     }
-    
+
     export default Skills
-    
