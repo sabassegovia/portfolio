@@ -12,8 +12,6 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Projects from './contents/Projects';
 
-
-
 function App() {
   return (
     <Router>
