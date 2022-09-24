@@ -15,7 +15,10 @@ class Projects extends Component {
                     </h2>
                 <h2>
                     <a className="linkStyle" href="https://nextjs-practice-deploy-git-main-sabassegovia.vercel.app/" target="_blank" rel="noopener noreferrer">Notes.App</a>
-                    </h2>
+                </h2>
+                <h2>
+                    <a className="linkStyle" href="https://sabassegovia.github.io/vjs_sprite_animations/" target="_blank" rel="noopener noreferrer">Basic Vanilla JS/CSS Animation Dropdown</a>
+                </h2>
             <Social />
             </div>
             )
