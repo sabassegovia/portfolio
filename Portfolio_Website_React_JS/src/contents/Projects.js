@@ -28,6 +28,14 @@ class Projects extends Component {
                     </a>
                 </h2>
                 <h2>
+                    <a className="linkStyle" href="https://sabassegovia.github.io/moving-background/" target="_blank" rel="noopener noreferrer">CSS Paralax Background
+                    </a>
+                </h2>
+                <h2>
+                    <a className="linkStyle" href="https://sabassegovia.github.io/bat-shooter/" target="_blank" rel="noopener noreferrer">Bat Shooter &#40;Desktop Only&#41;
+                    </a>
+                </h2>
+                <h2>
                     <a className="linkStyle" href="https://sabassegovia.github.io/jump-jump-scroller/" target="_blank" rel="noopener noreferrer">Jump Jump: A 2-D Sprite Scroller w/Mobile Support
                     </a>
                 </h2>
