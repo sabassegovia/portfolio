@@ -14,7 +14,7 @@ import Projects from './contents/Projects';
 
 function App() {
   return (
-    <Router>
+    <Router hashType="slash">
     <div className="App">
     <Navbar />
     <Route exact path="/">
