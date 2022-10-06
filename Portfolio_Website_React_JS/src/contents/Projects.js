@@ -23,6 +23,10 @@ class Projects extends Component {
                     <a className="linkStyle" href="https://sabassegovia.github.io/managing-state/" target="_blank" rel="noopener noreferrer">Responsive Sprite Animations
                     </a>
                 </h2>
+                <h2>
+                    <a className="linkStyle" href="https://sabassegovia.github.io/jump-jump-scroller/" target="_blank" rel="noopener noreferrer">Jump Jump: A 2-D Sprite Scroller
+                    </a>
+                </h2>
             <Social />
             </div>
             )
