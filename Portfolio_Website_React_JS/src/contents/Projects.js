@@ -10,8 +10,14 @@ class Projects extends Component {
                 <h1 className="subtopic">My Projects</h1>
                 <br></br>
                 {data.map(project => {
-                   return <ProjectCard projectUrl={project.projectUrl} projectName={project.projectName} />
-                })};
+                    return (
+                        <ProjectCard
+                            projectUrl={project.projectUrl}
+                            projectName={project.projectName}
+                            projectDecription={project.projectDecription}
+                            projectTechnologies={project.projectTechnologies}
+                        />
+                )})};
             <Social />
             </div>
             )
