@@ -39,7 +39,10 @@ class Projects extends Component {
                     <a className="linkStyle" href="https://sabassegovia.github.io/jump-jump-scroller/" target="_blank" rel="noopener noreferrer">Jump Jump: A 2-D Sprite Scroller w/Mobile Support
                     </a>
                 </h2>
+
             <Social />
+
+
             </div>
             )
         }
