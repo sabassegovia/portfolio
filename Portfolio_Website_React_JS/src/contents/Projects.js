@@ -17,11 +17,11 @@ class Projects extends Component {
                             projectDecription={project.projectDecription}
                             projectTechnologies={project.projectTechnologies}
                         />
-                )})};
+                )})}
             <Social />
             </div>
-            )
-        }
+        )
     }
+}
 
     export default Projects

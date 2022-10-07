@@ -90,10 +90,13 @@ h1,h2,h3,h4,p{
 }
 
 .social {
-  position: absolute;
-  margin-top: 20px;
+  position: relative;
+  margin-top: 150px;
   display: flex;
-  bottom: 60px;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  height:2.5rem;
 }
 
 .social i {
@@ -185,8 +188,8 @@ h1,h2,h3,h4,p{
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    bottom: 30px;
-    position:absolute;
+    bottom: 0;
+    position:relative;
     bottom: 0;
     right: 0;
   }
@@ -205,4 +208,3 @@ h1,h2,h3,h4,p{
 
 
 
-/* projects carousel */
