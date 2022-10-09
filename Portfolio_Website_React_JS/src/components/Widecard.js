@@ -13,6 +13,5 @@ class Widecard extends Component {
             )
         }
     }
-    
+
 export default Widecard
-    

@@ -8,7 +8,9 @@ class Projects extends Component {
         return (
             <div className="condiv">
                 <h1 className="subtopic">My Projects</h1>
+                <h4>Please excuse the mess, under construction</h4>
                 <br></br>
+                <ul>
                 {data.map(project => {
                     return (
                         <ProjectCard
@@ -18,7 +20,8 @@ class Projects extends Component {
                             projectTechnologies={project.projectTechnologies}
                         />
                 )})}
-            <Social />
+                    <Social />
+                </ul>
             </div>
         )
     }
